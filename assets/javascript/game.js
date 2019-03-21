@@ -1,13 +1,18 @@
 
-let ewokRandom = "";
+let ewokRandom = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+    console.log(ewokRandom);
 
-let leiaRandom = "";
+let leiaRandom = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+    console.log(leiaRandom);
 
-let speederRandom = "";
+let speederRandom = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+    console.log(speederRandom);
 
-let vaderRandom = "";
+let vaderRandom = Math.floor(Math.random() * (12 - 1 + 1)) + 1;
+    console.log(vaderRandom);
 
-let targetRandom = Math.floor(Math.random() * 100 + 20);
+let targetRandom = Math.floor(Math.random() * (120 - 20)) + 19;
+    console.log(targetRandom);
 
 let userScore = "";
 
@@ -16,7 +21,7 @@ let wins = "";
 let losses = "";
 
 
-console.log(targetRandom);
+
 
 window.onload = function () {document.getElementById("target").innerHTML += targetRandom;
 
