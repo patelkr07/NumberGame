@@ -18,3 +18,13 @@
     margin-left: 50px;
     margin-bottom: 25px;
 }
+
+.wins {
+    margin-left: 500px;
+    font-size: 30px;
+}
+
+.losses {
+    margin-left: 500px;
+    font-size: 30px;
+}
