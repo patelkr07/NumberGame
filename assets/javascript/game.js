@@ -1,21 +1,25 @@
 
-let ewokRandom = [];
+let ewokRandom = "";
 
-let leiaRandom = [];
+let leiaRandom = "";
 
-let speederRandom = [];
+let speederRandom = "";
 
-let vaderRandom = [];
+let vaderRandom = "";
 
-let npcRandom = [];
+let targetRandom = "";
 
-let userScore = [];
+let userScore = "";
 
-let wins = [];
+let wins = "";
 
-let losses = [];
+let losses = "";
 
 $(document).ready(function() {
+
+    targetRandom = Math.floor(Math.random() * 100 + 20);
+
+    console.log(targetRandom);
 
     $(".ewok").on("click", function() { 
         alert("Ewok been clicked");
@@ -33,6 +37,8 @@ $(document).ready(function() {
         alert("Vader been clicked");
     });
 });
+
+
 
 
 

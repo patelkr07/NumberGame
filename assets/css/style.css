@@ -1,30 +1,27 @@
 .ewok {
     margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .leia {
     margin-left: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .speeder {
     margin-left: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .vader {
     margin-left: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
-.wins {
-    margin-left: 500px;
-    font-size: 30px;
+.metrics {
+    margin-left: 1000px;
 }
 
-.losses {
-    margin-left: 500px;
-    font-size: 30px;
-}
+/*organize into two columns via grid system, so that Score/Target/Wins/Losses is in a second column on the right instead of underneath images*/
+
