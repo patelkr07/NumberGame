@@ -7,7 +7,7 @@ let speederRandom = "";
 
 let vaderRandom = "";
 
-let targetRandom = "";
+let targetRandom = Math.floor(Math.random() * 100 + 20);
 
 let userScore = "";
 
@@ -15,11 +15,16 @@ let wins = "";
 
 let losses = "";
 
+
+console.log(targetRandom);
+
+window.onload = function () {document.getElementById("target").innerHTML += targetRandom;
+
+
+
 $(document).ready(function() {
 
-    targetRandom = Math.floor(Math.random() * 100 + 20);
-
-    console.log(targetRandom);
+    
 
     $(".ewok").on("click", function() { 
         alert("Ewok been clicked");
@@ -38,8 +43,4 @@ $(document).ready(function() {
     });
 });
 
-
-
-
-
-
+}
